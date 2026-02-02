@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     // Check system preference
@@ -33,7 +33,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen">
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      
+
       <main>
         <Hero />
         <About />
@@ -43,7 +43,7 @@ const App: React.FC = () => {
         <Blog />
         <Contact />
       </main>
-      
+
       <Footer />
     </div>
   );

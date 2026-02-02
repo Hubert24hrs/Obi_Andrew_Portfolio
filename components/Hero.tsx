@@ -36,10 +36,10 @@ const Hero: React.FC = () => {
                 View My Work
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
-              <button className="px-8 py-4 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 font-bold hover:bg-slate-50 dark:hover:bg-slate-700 transition-all flex items-center gap-2">
+              <a href="/Obi_Andrew_Resume.html" target="_blank" className="px-8 py-4 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 font-bold hover:bg-slate-50 dark:hover:bg-slate-700 transition-all flex items-center gap-2">
                 Download Resume
                 <Download size={18} />
-              </button>
+              </a>
             </div>
 
             <div className="flex items-center gap-6 pt-4">
